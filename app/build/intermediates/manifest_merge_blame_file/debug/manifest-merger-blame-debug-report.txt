@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.agroceylonapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\888d0dcd8c7a1222701e94d3c66fe025\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-database:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\888d0dcd8c7a1222701e94d3c66fe025\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\888d0dcd8c7a1222701e94d3c66fe025\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:25:5-67
+14-->[com.google.firebase:firebase-database:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\888d0dcd8c7a1222701e94d3c66fe025\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:25:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\Sithija\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.agroceylonapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\Sithija\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\Sithija\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.agroceylonapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\Sithija\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\Sithija\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:5:5-40:19
+23        android:allowBackup="true"
+23-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:6:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\Sithija\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:7:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:8:9-54
+29        android:icon="@mipmap/ic_launcher_round"
+29-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:9:9-49
+30        android:label="@string/app_name"
+30-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:10:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:11:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:12:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.AgroCeylonApp" >
+34-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:13:9-51
+35        <activity
+35-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:15:9-20:15
+36            android:name="com.example.agroceylonapp.activities.RegisterActivity"
+36-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:16:13-56
+37            android:exported="false"
+37-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:17:13-37
+38            android:screenOrientation="portrait"
+38-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:18:13-49
+39            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+39-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:19:13-81
+40        <activity
+40-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:21:9-25:84
+41            android:name="com.example.agroceylonapp.activities.LoginActivity"
+41-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:22:13-53
+42            android:exported="false"
+42-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:23:13-37
+43            android:screenOrientation="portrait"
+43-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:24:13-49
+44            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+44-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:25:13-81
+45        <activity
+45-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:26:9-36:20
+46            android:name="com.example.agroceylonapp.activities.SplashActivity"
+46-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:27:13-54
+47            android:exported="true"
+47-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:28:13-36
+48            android:screenOrientation="portrait"
+48-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:29:13-49
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+49-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:30:13-69
+50            <intent-filter>
+50-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:31:13-35:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:32:17-69
+51-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:32:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:34:17-77
+53-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:34:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:37:9-39:39
+57            android:name="com.example.agroceylonapp.activities.MainActivity"
+57-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:38:13-52
+58            android:exported="true" />
+58-->C:\Users\Sithija\Desktop\MAD Project 2023\Mad-Mini-Project-Y2S2\app\src\main\AndroidManifest.xml:39:13-36
+59
+60        <service
+60-->[com.google.firebase:firebase-database-ktx:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\4dacd1133ec893f3cd09e86961e9e868\transformed\jetified-firebase-database-ktx-20.2.1\AndroidManifest.xml:11:9-17:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-database-ktx:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\4dacd1133ec893f3cd09e86961e9e868\transformed\jetified-firebase-database-ktx-20.2.1\AndroidManifest.xml:12:13-84
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\9b2864b889ac644099965df5ad818ee6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-database-ktx:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\4dacd1133ec893f3cd09e86961e9e868\transformed\jetified-firebase-database-ktx-20.2.1\AndroidManifest.xml:13:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-database-ktx:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\4dacd1133ec893f3cd09e86961e9e868\transformed\jetified-firebase-database-ktx-20.2.1\AndroidManifest.xml:14:13-16:85
+65                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+65-->[com.google.firebase:firebase-database-ktx:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\4dacd1133ec893f3cd09e86961e9e868\transformed\jetified-firebase-database-ktx-20.2.1\AndroidManifest.xml:15:17-124
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-database-ktx:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\4dacd1133ec893f3cd09e86961e9e868\transformed\jetified-firebase-database-ktx-20.2.1\AndroidManifest.xml:16:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\5132910760e7a3419a63efeb07c0159c\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+68                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+68-->[com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\5132910760e7a3419a63efeb07c0159c\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:15:17-122
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\5132910760e7a3419a63efeb07c0159c\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:16:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\6b7b1f47f07dbac242bbf61c4f86d7ad\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+71                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+71-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\6b7b1f47f07dbac242bbf61c4f86d7ad\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\6b7b1f47f07dbac242bbf61c4f86d7ad\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-database:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\888d0dcd8c7a1222701e94d3c66fe025\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:31:13-33:85
+74                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+74-->[com.google.firebase:firebase-database:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\888d0dcd8c7a1222701e94d3c66fe025\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:32:17-109
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-database:20.2.1] C:\Users\Sithija\.gradle\caches\transforms-3\888d0dcd8c7a1222701e94d3c66fe025\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:33:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\7b39168df534db020ea4a3128e09261b\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:32:13-34:85
+77                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+77-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\7b39168df534db020ea4a3128e09261b\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:33:17-107
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\7b39168df534db020ea4a3128e09261b\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:34:17-82
+79        </service>
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Sithija\.gradle\caches\transforms-3\7d16f85cd48592bfec4b897f8d01aa57\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Sithija\.gradle\caches\transforms-3\7d16f85cd48592bfec4b897f8d01aa57\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Sithija\.gradle\caches\transforms-3\7d16f85cd48592bfec4b897f8d01aa57\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Sithija\.gradle\caches\transforms-3\7d16f85cd48592bfec4b897f8d01aa57\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+85
+86        <provider
+86-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\9b2864b889ac644099965df5ad818ee6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+87            android:name="com.google.firebase.provider.FirebaseInitProvider"
+87-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\9b2864b889ac644099965df5ad818ee6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+88            android:authorities="com.example.agroceylonapp.firebaseinitprovider"
+88-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\9b2864b889ac644099965df5ad818ee6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\9b2864b889ac644099965df5ad818ee6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+90            android:exported="false"
+90-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\9b2864b889ac644099965df5ad818ee6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+91            android:initOrder="100" />
+91-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Sithija\.gradle\caches\transforms-3\9b2864b889ac644099965df5ad818ee6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Sithija\.gradle\caches\transforms-3\941733a55f90c50248798755b27295c0\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Sithija\.gradle\caches\transforms-3\941733a55f90c50248798755b27295c0\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Sithija\.gradle\caches\transforms-3\941733a55f90c50248798755b27295c0\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\29d723c47371a6cb6e7add9b60aed580\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\29d723c47371a6cb6e7add9b60aed580\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+99            android:authorities="com.example.agroceylonapp.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\29d723c47371a6cb6e7add9b60aed580\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\29d723c47371a6cb6e7add9b60aed580\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\29d723c47371a6cb6e7add9b60aed580\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\29d723c47371a6cb6e7add9b60aed580\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sithija\.gradle\caches\transforms-3\29d723c47371a6cb6e7add9b60aed580\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sithija\.gradle\caches\transforms-3\078ba1a9c54a36f083ed62c71fe6b635\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sithija\.gradle\caches\transforms-3\078ba1a9c54a36f083ed62c71fe6b635\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sithija\.gradle\caches\transforms-3\078ba1a9c54a36f083ed62c71fe6b635\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+107        </provider>
+108    </application>
+109
+110</manifest>
