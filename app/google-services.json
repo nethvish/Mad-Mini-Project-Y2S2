@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "406075674082",
+    "project_id": "agroceylonapp",
+    "storage_bucket": "agroceylonapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406075674082:android:8e63c35255523f7a503dbb",
+        "android_client_info": {
+          "package_name": "com.example.agroceylonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406075674082-gk19ormg6gbcb0kabd2mue4n968759ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaVme-z7L_kRIs1hr_s_-LbPR_CNHIny4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406075674082-gk19ormg6gbcb0kabd2mue4n968759ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
