@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\drawable_ac_logo.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\drawable\\ac_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\drawable_ic_black_color_back_24dp.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\drawable\\ic_black_color_back_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\drawable_auth_screens_background.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\drawable\\auth_screens_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.example.agroceylonapp-merged_res-33:/layout_activity_base.xml.flat",
+        "source": "com.example.agroceylonapp-main-35:/layout/activity_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-merged_res-33:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Sithija\\.gradle\\daemon\\7.5\\com.example.agroceylonapp-main-35:\\layout\\activity_register.xml"
+    }
+]

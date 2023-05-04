@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+=======
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="kelly_green">#4CBB17</color>
+    <color name="mint_green">#98FB98</color>
+    <color name="jungle_green">#2AAA8A</color>
+    <color name="emarald_green">#50C878</color>
+    <color name="jade_green">#00A36C</color>
+    <color name="sea_green">#9FE2BF</color>
+
+    <color name="colorSnackBarSuccess">#8BC34A</color>
+    <color name="colorSnackBarError">#F72400</color>
+
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
 </resources>

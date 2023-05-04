@@ -1,9 +1,31 @@
+<<<<<<< HEAD
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" default="true">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+=======
+>>>>>>> c288a0c1f212eb87dbf90fcefc4d3c1ba51c3171
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2c6702faad674933a2ba750d9d6c764704a23aaa
+>>>>>>> c288a0c1f212eb87dbf90fcefc4d3c1ba51c3171
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
 </project>

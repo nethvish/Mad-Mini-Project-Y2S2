@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".MainActivity">
+=======
+    tools:context=".activities.MainActivity">
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
 
     <TextView
         android:layout_width="wrap_content"

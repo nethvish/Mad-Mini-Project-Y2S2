@@ -5,11 +5,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace 'com.example.test123'
     compileSdk 33
 
     defaultConfig {
         applicationId "com.example.test123"
+=======
+    namespace 'com.example.agroceylonapp'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.agroceylonapp"
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -24,6 +32,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+<<<<<<< HEAD
+=======
+
+    buildFeatures{
+        viewBinding true
+    }
+
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -35,12 +51,21 @@ android {
 
 dependencies {
 
+<<<<<<< HEAD
     implementation 'androidx.core:core-ktx:1.10.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.firebase:firebase-database-ktx:20.2.0'
     implementation 'com.google.firebase:firebase-storage-ktx:20.1.0'
+=======
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-database-ktx:20.2.1'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.2.0'
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'

@@ -1,3 +1,33 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">test 123</string>
+=======
+
+
+    <string name="app_name">AgroCeylonApp</string>
+    <string name="app_title">AgroCeylon</string>
+
+    <!-- Login Activity -->
+    <string name="content_description">image</string>
+    <string name="title_login">Login</string>
+    <string name="et_hint_email_id">Email ID</string>
+    <string name="et_hint_password">Password</string>
+    <string name="lbl_forgot_password">Forgot Password ?</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="register"><u>Register</u></string>
+
+    <!--Register activity-->
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="et_hint_confirm_password">Confirm Password</string>
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Condition </u></string>
+    <string name="btn_lbl_register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login"><u>Login</u></string>
+    <string name="please_wait">Please wait…</string>
+
+
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
 </resources>

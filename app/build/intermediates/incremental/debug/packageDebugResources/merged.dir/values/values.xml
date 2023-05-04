@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorSnackBarError">#F72400</color>
+    <color name="colorSnackBarSuccess">#8BC34A</color>
+    <color name="emarald_green">#50C878</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="jade_green">#00A36C</color>
+    <color name="jungle_green">#2AAA8A</color>
+    <color name="kelly_green">#4CBB17</color>
+    <color name="mint_green">#98FB98</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="sea_green">#9FE2BF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="auth_header_image_height">200dp</dimen>
+    <dimen name="auth_logo_height_size">190dp</dimen>
+    <dimen name="auth_logo_width_size">220dp</dimen>
+    <dimen name="btn_padding">8dp</dimen>
+    <dimen name="btn_textSize">18sp</dimen>
+    <dimen name="button_background_radius">10dp</dimen>
+    <dimen name="button_paddingTop_Bottom">8dp</dimen>
+    <dimen name="clickable_text_view_padding">5dp</dimen>
+    <dimen name="et_padding">16dp</dimen>
+    <dimen name="et_textSize">16sp</dimen>
+    <dimen name="forgot_password_textSize">14sp</dimen>
+    <dimen name="lbl_text_view_textSize">16sp</dimen>
+    <dimen name="splash_title_text_size">35sp</dimen>
+    <dimen name="title_textSize">18sp</dimen>
+    <dimen name="toolbar_title_padding_start">25dp</dimen>
+    <dimen name="toolbar_title_text_size">18sp</dimen>
+    <dimen name="txt_terms_and_condition_textSize">14sp</dimen>
+    <dimen name="txt_terms_condition_marginStart">10dp</dimen>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="app_name">AgroCeylonApp</string>
+    <string name="app_title">AgroCeylon</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="btn_lbl_register">Register</string>
+    <string name="content_description">image</string>
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+    <string name="default_web_client_id" translatable="false">406075674082-gk19ormg6gbcb0kabd2mue4n968759ap.apps.googleusercontent.com</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="et_hint_confirm_password">Confirm Password</string>
+    <string name="et_hint_email_id">Email ID</string>
+    <string name="et_hint_password">Password</string>
+    <string name="gcm_defaultSenderId" translatable="false">406075674082</string>
+    <string name="google_api_key" translatable="false">AIzaSyAaVme-z7L_kRIs1hr_s_-LbPR_CNHIny4</string>
+    <string name="google_app_id" translatable="false">1:406075674082:android:8e63c35255523f7a503dbb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAaVme-z7L_kRIs1hr_s_-LbPR_CNHIny4</string>
+    <string name="google_storage_bucket" translatable="false">agroceylonapp.appspot.com</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Condition </u></string>
+    <string name="lbl_forgot_password">Forgot Password ?</string>
+    <string name="login"><u>Login</u></string>
+    <string name="please_wait">Please wait…</string>
+    <string name="project_id" translatable="false">agroceylonapp</string>
+    <string name="register"><u>Register</u></string>
+    <string name="title_login">Login</string>
+    <style name="ACTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/kelly_green</item>
+        <item name="hintTextColor">@color/jungle_green</item>
+
+    </style>
+    <style name="Theme.AgroCeylonApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.AgroCeylonApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

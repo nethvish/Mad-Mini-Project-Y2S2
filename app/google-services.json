@@ -1,33 +1,57 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "1015064736637",
     "project_id": "test-123-20b84",
     "storage_bucket": "test-123-20b84.appspot.com"
+=======
+    "project_number": "406075674082",
+    "project_id": "agroceylonapp",
+    "storage_bucket": "agroceylonapp.appspot.com"
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:1015064736637:android:3d261b1332f51a2b9ed214",
         "android_client_info": {
           "package_name": "com.example.test123"
+=======
+        "mobilesdk_app_id": "1:406075674082:android:8e63c35255523f7a503dbb",
+        "android_client_info": {
+          "package_name": "com.example.agroceylonapp"
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
         }
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
           "client_id": "1015064736637-h9jebga4u25do5juiob7pvpgbf48for5.apps.googleusercontent.com",
+=======
+          "client_id": "406075674082-gk19ormg6gbcb0kabd2mue4n968759ap.apps.googleusercontent.com",
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
           "client_type": 3
         }
       ],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyCCLVCeiJJHBNRb7KsD69ZbxvLGs8xY2W0"
+=======
+          "current_key": "AIzaSyAaVme-z7L_kRIs1hr_s_-LbPR_CNHIny4"
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
+<<<<<<< HEAD
               "client_id": "1015064736637-h9jebga4u25do5juiob7pvpgbf48for5.apps.googleusercontent.com",
+=======
+              "client_id": "406075674082-gk19ormg6gbcb0kabd2mue4n968759ap.apps.googleusercontent.com",
+>>>>>>> 1d614df9b474079df6832e6d64b04ebb9790a0c1
               "client_type": 3
             }
           ]
