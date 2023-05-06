@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvBuyerPostImageHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ivFarmerPost"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvFarmerPostTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/farmer_post_title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cvBuyerPostImageHolder"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvFarmerPostLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/farmer_post_location"
+            app:layout_constraintStart_toStartOf="@+id/tvFarmerPostTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvFarmerPostTitle" />
+
+        <TextView
+            android:id="@+id/tvFarmerPostQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/farmer_post_quantity"
+            android:textColor="#4CAF50"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tvFarmerPostLocation"
+            app:layout_constraintTop_toBottomOf="@+id/tvFarmerPostLocation" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvBuyerPostQtyLabel"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:text="@string/buyer_post_unit_label"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/tvBuyerPostQty"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/tvBuyerPostQty"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/tvBuyerPostQty" />-->
+
+        <TextView
+            android:id="@+id/tvFarmerPostDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/farmer_post_date"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/chipFarmerPostPrice"
+            app:layout_constraintStart_toEndOf="@+id/chipFarmerPostPrice"
+            app:layout_constraintTop_toBottomOf="@+id/tvFarmerPostQty" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvBuyerPostName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:textColor="#2196F3"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="@string/farmer_post_date"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/chipBuyerPostType"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/chipBuyerPostType" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvBuyerPostPhone"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:text="@string/farmer_post_date"-->
+<!--            android:textColor="#2196F3"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/ivPhoneIcon"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/ivPhoneIcon"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/ivPhoneIcon" />-->
+
+        <ImageView
+            android:id="@+id/ivPhoneIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="@+id/tvBuyerPostName"
+            app:layout_constraintTop_toBottomOf="@+id/tvBuyerPostName"/>
+<!--        app:srcCompat="@drawable/baseline_call_24" />-->
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipFarmerPostPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/farmer_post_price"
+            app:chipBackgroundColor="#FFC107"
+            app:chipCornerRadius="5dp"
+            app:layout_constraintStart_toStartOf="@+id/tvFarmerPostQty"
+            app:layout_constraintTop_toBottomOf="@+id/tvFarmerPostQty" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

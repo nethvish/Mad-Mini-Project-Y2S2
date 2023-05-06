@@ -1,0 +1,106 @@
+<resources>
+
+
+    <string name="app_name">AgroCeylon</string>
+    <string name="app_title">AgroCeylon</string>
+
+    <!-- Login Activity -->
+    <string name="content_description">image</string>
+    <string name="title_login">Login</string>
+    <string name="et_hint_email_id">Email ID</string>
+    <string name="et_hint_password">Password</string>
+    <string name="lbl_forgot_password">Forgot Password ?</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="register"><u>Register</u></string>
+
+    <!--Sign up activity-->
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="et_hint_confirm_password">Confirm Password</string>
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Condition </u></string>
+    <string name="btn_lbl_register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login"><u>Login</u></string>
+    <string name="please_wait">Please wait…</string>
+    <string name="register_success">You are registered successfully.</string>
+
+    <!-- forgot password-->
+    <string name="btn_lbl_submit">Submit</string>
+    <string name="title_forgot_password">FORGOT PASSWORD</string>
+    <string name="forgot_password_title_description">Enter your username and e-mail address we\'ll send you a email to reset your password</string>
+    <string name="email_sent_successfully">Email sent successfully to reset your password!</string>
+    <string name="err_msg_enter_email">Please enter email.</string>
+
+    <!--    <string name="title_activity_dashboard">MainActivity</string>-->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="please_press_back_again_to_exit">Please back again to Exit</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_products">Products</string>
+    <string name="title_settings">Settings</string>
+    <string name="lbl_edit">Edit</string>
+    <string name="lbl_addresses">Addresses</string>
+    <string name="btn_lbl_logout">Logout</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="add_product">Add Product</string>
+    <string name="back_to_login">Back to login</string>
+
+    <!-- user profile activity -->
+    <string name="title_complete_profile">PROFILE</string>
+    <string name="et_hint_mobile_number">Mobile Number</string>
+    <string name="rb_lbl_male">MALE </string>
+    <string name="rb_label_female">FEMALE</string>
+    <string name="btn_lbl_save">Save</string>
+    <string name="read_storage_permission_denied">Oops! It seems like you just denied the permission needed. You can also allow it from settings.</string>
+    <string name="image_selection_failed">Something went wrong during image selection</string>
+
+
+    <!--dashboard activity-->
+    <string name="agro_tools">Tools / Fertilizer</string>
+    <string name="user_profile_card">Profile</string>
+    <string name="products_card">Products</string>
+    <string name="settings_card">Settings</string>
+    <string name="transport_card">Transport</string>
+    <string name="vendor_card_text">Vendors</string>
+    <string name="dashboard_text">Dashboard</string>
+
+    <!--Agrotools / fertilizer post activities    -->
+    <string name="add_tools_post">Add Post</string>
+    <string name="hint_tool_title">post title</string>
+    <string name="tool_price">price per unit</string>
+    <string name="et_tool_location">location</string>
+    <string name="rb_agTool_text">Machinery / tool</string>
+    <string name="rb_fertilizer_text">Fertilizer</string>
+
+    <!-- Product Insertion Activity -->
+    <string name="create_a_listning">CREATE A LISTNING</string>
+    <string name="hint_product_name">Product Name</string>
+    <string name="hint_location">Location</string>
+    <string name="et_hint_price">Price</string>
+    <string name="et_hint_quantity">Quantity</string>
+    <string name="et_hint_date">Date</string>
+    <string name="btn_lbl_save_data">SAVE DATA</string>
+
+
+    <!-- Product Fetching Activity -->
+    <string name="farmer_post_title">Product Title</string>
+    <string name="farmer_post_location">Location</string>
+    <string name="farmer_post_quantity">Quantity</string>
+    <string name="farmer_post_price">Price</string>
+    <string name="farmer_post_date">Date</string>
+
+    <!-- Update Product Dialog XML -->
+    <string name="btn_lbl_update_data">UPDATE</string>
+    <string name="update_a_listning">UPDATE LISTNING</string>
+
+    <!-- Transporter - nethum -->
+    <string name="transporter_name">Enter name</string>
+    <string name="vehi_model">Enter Vehicle model</string>
+    <string name="vehi_id">Enter vehicle number</string>
+    <string name="transpoter_mobile">Enter mobile number</string>
+    <string name="tr_location">Enter current location</string>
+    <string name="transport_update">Update Details</string>
+
+
+</resources>

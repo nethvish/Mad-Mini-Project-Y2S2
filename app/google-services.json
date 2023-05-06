@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "64409178038",
+    "firebase_url": "https://agroceylon-82b49-default-rtdb.firebaseio.com",
+    "project_id": "agroceylon-82b49",
+    "storage_bucket": "agroceylon-82b49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64409178038:android:60e00c0e2bd091299ebb17",
+        "android_client_info": {
+          "package_name": "com.example.agroceylon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64409178038-7ortodu3hi2p5q1nsf603fga5juuiqmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVWgz_p4VChRnj8qTCV2DJziYBoGM-I3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64409178038-7ortodu3hi2p5q1nsf603fga5juuiqmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
