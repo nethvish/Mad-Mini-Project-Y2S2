@@ -78,7 +78,7 @@ class TransporterFetchingActivity : AppCompatActivity() {
                             //put extras
                             intent.putExtra("trId", transpList[position].trId)
                             intent.putExtra("trfName", transpList[position].trfName)
-                            intent.putExtra("vehiNumber", transpList[position].vehiNumber)
+                            intent.putExtra("vehiModel", transpList[position].vehiModel)
                             intent.putExtra("vehiId", transpList[position].vehiId)
                             intent.putExtra("trMobile", transpList[position].trMobile)
                             intent.putExtra("trLocation", transpList[position].trLocation)

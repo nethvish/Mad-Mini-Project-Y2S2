@@ -14,22 +14,25 @@
         android:padding="10dp">
 
         <TextView
-            android:id="@+id/tvVehiId"
+            android:id="@+id/tvTranspLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="8dp"
+            android:text="Location"
+            app:layout_constraintStart_toStartOf="@+id/tvTranspMobile"
+            app:layout_constraintTop_toBottomOf="@+id/tvTranspVehiModel" />
+
+        <TextView
+            android:id="@+id/tvTranspVehiId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:text="Vehicle Number"
-            app:layout_constraintStart_toStartOf="@+id/tvTrMobile"
-            app:layout_constraintTop_toBottomOf="@+id/tvVihicleModel" />
+            app:layout_constraintStart_toStartOf="@+id/tvTranspMobile"
+            app:layout_constraintTop_toBottomOf="@+id/tvTranspVehiModel" />
 
-        <TextView
-            android:id="@+id/tvTrLocation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Location"
-            app:layout_constraintTop_toBottomOf="@+id/tvVihicleModel"
-            tools:layout_editor_absoluteX="238dp" />
+
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvBuyerPostImageHolder"
@@ -61,16 +64,16 @@
 
 
         <TextView
-            android:id="@+id/tvTrMobile"
+            android:id="@+id/tvTranspMobile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Mobile Number"
-            app:layout_constraintStart_toStartOf="@+id/tvVihicleModel"
-            app:layout_constraintTop_toBottomOf="@+id/tvVihicleModel" />
+            app:layout_constraintStart_toStartOf="@+id/tvTranspVehiModel"
+            app:layout_constraintTop_toBottomOf="@+id/tvTranspVehiModel" />
 
         <TextView
-            android:id="@+id/tvVihicleModel"
+            android:id="@+id/tvTranspVehiModel"
             android:layout_width="130dp"
             android:layout_height="20dp"
             android:layout_marginTop="8dp"
