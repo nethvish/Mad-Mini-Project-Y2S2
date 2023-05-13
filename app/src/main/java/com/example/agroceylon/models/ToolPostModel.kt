@@ -7,7 +7,7 @@ data class ToolPostModel(
     var toolPrice: String? = null,
     var toolLocation: String? = null,
     var toolType: String? = null,
-    var toolImage: String? = null,
+    var imgUri: String? = null,
 
 
 )
