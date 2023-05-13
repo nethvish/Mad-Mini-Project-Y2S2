@@ -13,11 +13,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.agroceylon.R
 import com.example.agroceylon.adapters.ToolPostAdapter
 import com.example.agroceylon.databinding.ActivityFetchingToolsBinding
+import com.example.agroceylon.databinding.ActivityToolDetailsBinding
 import com.example.agroceylon.models.ToolPostModel
 import com.google.firebase.database.*
+import com.squareup.picasso.Picasso
 
 class FetchingToolsActivity : AppCompatActivity() {
     private lateinit var binding: ActivityFetchingToolsBinding
+    private lateinit var binding2: ActivityToolDetailsBinding
 
     private lateinit var toolRecyclerView: RecyclerView
     private lateinit var toolLoadingData: TextView
@@ -87,6 +90,8 @@ class FetchingToolsActivity : AppCompatActivity() {
                             intent.putExtra("toolPrice", toolList[position].toolPrice)
                             intent.putExtra("toolLocation", toolList[position].toolLocation)
                             intent.putExtra("toolType", toolList[position].toolType)
+                            //val currentTool = toolList[position]
+                            // Picasso.get().load(currentTool.imgUri).into(binding2.ivToolPhoto)
                             startActivity(intent)
                         }
 
