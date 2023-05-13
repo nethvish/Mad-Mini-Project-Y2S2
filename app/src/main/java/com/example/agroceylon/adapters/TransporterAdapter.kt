@@ -29,6 +29,11 @@ class TransporterAdapter(private val transpList: ArrayList<TransporterModel>) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val currentTransp = transpList[position]
         holder.tvTranspName.text = currentTransp.trfName
+        holder.tvTranspVehiModel.text = currentTransp.vehiModel
+        holder.tvTranspVehiId.text = currentTransp.vehiId
+        holder.tvTranspMobile.text = currentTransp.trMobile
+        holder.tvTranspLocation.text = currentTransp.trLocation
+
     }
 
     override fun getItemCount(): Int {
@@ -38,6 +43,10 @@ class TransporterAdapter(private val transpList: ArrayList<TransporterModel>) :
     class ViewHolder(itemView: View, clickListener: onItemClickListener) : RecyclerView.ViewHolder(itemView) {
 
         val tvTranspName : TextView = itemView.findViewById(R.id.tvTranspName)
+        val tvTranspVehiModel : TextView = itemView.findViewById(R.id.tvTranspVehiModel)
+        val tvTranspVehiId : TextView = itemView.findViewById(R.id.tvTranspVehiId)
+        val tvTranspMobile : TextView = itemView.findViewById(R.id.tvTranspMobile)
+        val tvTranspLocation : TextView = itemView.findViewById(R.id.tvTranspLocation)
 
         init {
             itemView.setOnClickListener {
