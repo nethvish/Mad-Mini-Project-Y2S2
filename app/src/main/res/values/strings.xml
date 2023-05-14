@@ -101,6 +101,40 @@
     <string name="transpoter_mobile">Enter mobile number</string>
     <string name="tr_location">Enter current location</string>
     <string name="transport_update">Update Details</string>
+    <string name="buyer_update_post_location">\n\n\n\n</string>
+
+<!--    BUYER PAWAN-->
+    <string name="buyer_post_title">Lorem ipsum dolor sit amet consectetur</string>
+    <string name="buyer_post_location">Location</string>
+    <string name="buyer_post_quantity">Quantity</string>
+    <string name="buyer_post_unit_label">Units/ Kg</string>
+    <string name="buyer_post_date">Date/ Time</string>
+    <string name="buyer_post_name">Kamal S.</string>
+    <string name="buyer_post_phone">0112112112</string>
+    <string name="buyer_post_type">Type</string>
+    <string name="buyer_post_view_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="buyer_post_view_image_caption">Post Image Caption</string>
+    <string name="buyer_post_view_qty">2000 Units</string>
+    <string name="buyer_post_view_location">Location</string>
+    <string name="buyer_post_view_location1">Location (ex: NuwaraEliya)</string>
+    <string name="buyer_post_view_date">2023-06-01</string>
+    <string name="buyer_post_view_name">Kamal S.</string>
+    <string name="buyer_post_view_req_date">Req. Date</string>
+    <string name="buyer_post_view_buyer_name">Name</string>
+    <string name="btnBuyerUpdateText">Update</string>
+    <string name="btnBuyerDeleteText">Delete</string>
+    <string name="buyer_profile_loading_text">Loading Data...</string>
+    <string name="buyer_update_post_pageTitle">Update Buyer Post</string>
+    <string name="buyer_update_post_title">Post Title</string>
+    <string name="buyer_update_post_quantity">Quantity</string>
+    <string name="buyer_update_post_price">Price</string>
+    <string name="buyer_pwn_update_post_location">Location</string>
+    <string name="buyer_update_post_reqDate">Required Date</string>
+    <string name="buyer_update_post_type">Item Type</string>
+    <string name="buyer_update_post_name">Buyer Name</string>
+    <string name="buyer_update_post_static_addBtn">ADD</string>
+    <string name="buyer_update_post_static_saveBtn">SAVE</string>
+    <string name="create_new_buyer_post">Create New Buyer Post</string>
 
 
 </resources>
