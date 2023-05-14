@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ivBuyerCreateImage" type="id" />
+    <item name="tvBuyerPostCreateTitleStatic" type="id" />
+    <item name="etBuyerPostCreateTitle" type="id" />
+    <item name="etBuyerPostCreateQty" type="id" />
+    <item name="etBuyerPostCreatePrice" type="id" />
+    <item name="etBuyerPostCreateLocation" type="id" />
+    <item name="etBuyerPostCreateReqDate" type="id" />
+    <item name="etBuyerPostCreateType" type="id" />
+    <item name="etBuyerPostCreateName" type="id" />
+    <item name="btnBuyerPostCreateImageUpload" type="id" />
+    <item name="btnBuyerPostCreateSave" type="id" />
+</resources>
