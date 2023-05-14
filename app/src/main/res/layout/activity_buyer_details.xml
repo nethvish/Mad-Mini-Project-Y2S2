@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipBuyerPostsViewType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/buyer_post_type"
+        app:chipBackgroundColor="#FFC107"
+        app:chipCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBuyerPostViewAmount" />
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buyer_post_phone"
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/icBuyerPostViewStaticPhone"
+        app:layout_constraintStart_toStartOf="@+id/tvBuyerPostViewReqDate"
+        app:layout_constraintTop_toTopOf="@+id/icBuyerPostViewStaticPhone" />
+
+    <ImageView
+        android:id="@+id/icBuyerPostViewStaticPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/tvBuyerPostViewStaticDate"
+        app:srcCompat="@drawable/baseline_call_24"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:text="Original Red Onions Needed"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewImageCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/buyer_post_view_image_caption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBuyerPostViewTitle">
+
+        <ImageView
+            android:id="@+id/ivBuyerPostViewImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/buyer_post_view_qty"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBuyerPostViewImageCaption" />
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewStaticLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/buyer_post_view_location"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chipBuyerPostsViewType" />
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/buyer_post_view_location1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tvBuyerPostViewStaticLocation"
+        app:layout_constraintTop_toTopOf="@+id/tvBuyerPostViewStaticLocation" />
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewReqDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buyer_post_view_date"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvBuyerPostViewLocation"
+        app:layout_constraintTop_toTopOf="@+id/tvBuyerPostViewStaticDate" />
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buyer_post_view_name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvBuyerPostViewLocation"
+        app:layout_constraintTop_toTopOf="@+id/tvBuyerPostViewStaticName" />
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewStaticDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/buyer_post_view_req_date"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvBuyerPostViewStaticLocation"
+        app:layout_constraintTop_toBottomOf="@+id/tvBuyerPostViewStaticLocation" />
+
+    <TextView
+        android:id="@+id/tvBuyerPostViewStaticName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/buyer_post_view_buyer_name"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/icBuyerPostViewStaticPhone"
+        app:layout_constraintTop_toBottomOf="@+id/icBuyerPostViewStaticPhone" />
+
+    <Button
+        android:id="@+id/btnUpdateBuyerPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnBuyerUpdateText"
+        app:layout_constraintStart_toStartOf="@+id/tvBuyerPostViewName"
+        app:layout_constraintTop_toBottomOf="@+id/tvBuyerPostViewStaticName" />
+
+    <Button
+        android:id="@+id/btnDeleteBuyerPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnBuyerDeleteText"
+        android:textColorHighlight="#3F51B5"
+        app:layout_constraintStart_toEndOf="@+id/btnUpdateBuyerPost"
+        app:layout_constraintTop_toBottomOf="@+id/tvBuyerPostViewStaticName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

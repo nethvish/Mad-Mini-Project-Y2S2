@@ -1,7 +1,7 @@
 package com.example.agroceylon.models
 
-data class BuyerPostModel(
-    var PostId: String? = null,
+class BuyerPostModel(
+    var postId: String? = null,
     var postTitle: String? = null,
     var postDate: String? = null,
     var postPrice: String? = null,

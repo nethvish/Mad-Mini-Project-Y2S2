@@ -29,6 +29,13 @@ class DashboardActivity : AppCompatActivity() {
             )
         }
 
+        binding.view8.setOnClickListener{
+
+            val intent = Intent(this@DashboardActivity, BuyerFetchingActivity::class.java)
+            startActivity(intent)
+
+        }
+
         binding.view9.setOnClickListener{
 
             val intent = Intent(this@DashboardActivity, FetchingToolsActivity::class.java)
